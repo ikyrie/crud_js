@@ -1,0 +1,36 @@
+* {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    border: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+.container {
+    width: 100%;
+}
+
+.user_form input {
+    display: block;
+    width: 100%;
+    margin: 1em 0;
+    padding: .5em;
+    border: 1px rgb(160, 160, 160) solid;
+    border-radius: .3em;
+}
+
+.user_form button{
+    box-sizing: border-box;
+    padding: .9em;
+    border-radius: .3em;
+    background-color: rgb(91, 91, 255);
+    color: rgb(255, 255, 255);
+}
