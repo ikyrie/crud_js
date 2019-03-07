@@ -12,10 +12,23 @@
 
 html {
     font-size: 10px;
+    font-family: sans-serif;
 }
 
 .container {
     width: 100%;
+}
+
+.jambotrom {
+    box-sizing: border-box;
+    border-radius: .3em;
+    background-color: rgb(91, 91, 255);
+    padding: 3em 5em 5em;
+    color: rgb(255, 255, 255);
+}
+
+.jambotrom h1 {
+    font-size: 4.3em;
 }
 
 .user_form input {
