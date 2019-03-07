@@ -25,6 +25,7 @@ html {
     padding: .5em;
     border: 1px rgb(160, 160, 160) solid;
     border-radius: .3em;
+    box-sizing: border-box;
 }
 
 .user_form button{
@@ -33,4 +34,17 @@ html {
     border-radius: .3em;
     background-color: rgb(91, 91, 255);
     color: rgb(255, 255, 255);
+}
+
+@media(min-width:800px) {
+    .container {
+        margin: 0 auto;
+        width: 70em;
+    }
+}
+
+@media(min-width:1200px) {
+    .container {
+        width: 100em;
+    }
 }
