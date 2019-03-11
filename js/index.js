@@ -18,6 +18,6 @@ new function start(){
 
 addUser.addEventListener('click', function(event){
     event.preventDefault()
-    body += '<tr><td>' + userName.value + '</td><td>' + userEmail.value + '</td></tr>'
-    list.innerHTML = body
+    body.push('<tr><td>' + userName.value + '</td><td>' + userEmail.value + '</td></tr>')
+    list.innerHTML = body.join('')
 })

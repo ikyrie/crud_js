@@ -15,6 +15,37 @@ html {
     font-family: sans-serif;
 }
 
+.users_table {
+    width: 100%;
+    font-size: 1.2em;
+    border-collapse: collapse;
+}
+
+.users_table th {
+    background-color: rgb(91, 91, 255);
+    color: white;
+}
+
+.users_table th:first-child {
+    border-radius: .3em 0 0 0;
+}
+
+.users_table th:last-child {
+    border-radius: 0 .3em 0 0;
+}
+
+.users_table tr {
+    text-align: center;
+    height: 2.5em;
+    border-bottom: 1px rgb(228, 228, 255) solid;
+    transition: .25s;
+}
+
+.users_table tr:hover {
+    background-color: rgb(228, 228, 255);
+    transition: .25s;
+}
+
 .container {
     width: 100%;
 }
