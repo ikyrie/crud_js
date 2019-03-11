@@ -41,7 +41,8 @@ html {
     box-sizing: border-box;
 }
 
-.user_form button{
+.user_form input[type='submit']{
+    width: 7.5em;
     box-sizing: border-box;
     padding: .9em;
     border-radius: .3em;
